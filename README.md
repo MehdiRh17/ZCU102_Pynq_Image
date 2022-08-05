@@ -1,4 +1,4 @@
-![](./kriapynq.png)
+![](./zcu102.jpg)
 
 This repository contains the install scripts needed to add PYNQ to ZCU102 Vision AI Starter Kit's official Ubuntu SDCard Image.  From that installation, a complete Python and Jupyter environment is installed on the ZCU102 board along with multiple programmable logic overlays all ready to use.  
 
