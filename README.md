@@ -7,14 +7,14 @@ This repository contains the install scripts needed to add PYNQ to ZCU102 Vision
 #### 1. Get the Ubuntu SD Card Image 
 Follow the steps to [Get Started with ZCU102 Vision AI Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html) until you complete the [Booting your Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/booting-your-starter-kit.html) section
 
-NOTE: download the ubunto image for zcu102 not the kria kv260
+NOTE: download the ubunto image for zcu102 not the kria kv260 ( the above link is just the overal step)
 
 #### 2. Install PYNQ
 Then install PYNQ on the ZCU102.  Simply clone this repository and run the install.sh script.
 
 ```bash
-git clone https://github.com/Xilinx/Kria-PYNQ.git
-cd Kria-PYNQ/
+git clone https://github.com/MehdiRh17/ZCU102_Pynq_Image.git
+cd ZCU102_Pynq_Image/
 sudo bash install.sh
 ```
 
@@ -22,7 +22,7 @@ This script will install the required debian packages, create Python virtual env
 
 #### 3. Open Jupyter
 
-JupyterLab can now be accessed via a web browser `<ip_address>:9090/lab` or `kria:9090/lab`. The password is **xilinx**
+JupyterLab can now be accessed via a web browser 192.168.2.226:9090/lab or zynqmp:9090/lab. The password is **xilinx**
 
 ## Included Overlays
 
