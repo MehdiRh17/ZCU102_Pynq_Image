@@ -1,14 +1,16 @@
 ![](./kriapynq.png)
 
-This repository contains the install scripts needed to add PYNQ to your Kria KV260 Vision AI Starter Kit's official Ubuntu SDCard Image.  From that installation, a complete Python and Jupyter environment is installed on the Kria SOM along with multiple programmable logic overlays all ready to use.  
+This repository contains the install scripts needed to add PYNQ to ZCU102 Vision AI Starter Kit's official Ubuntu SDCard Image.  From that installation, a complete Python and Jupyter environment is installed on the ZCU102 board along with multiple programmable logic overlays all ready to use.  
 
 ## Installation
 
 #### 1. Get the Ubuntu SD Card Image 
-Follow the steps to [Get Started with Kria KV260 Vision AI Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html) until you complete the [Booting your Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/booting-your-starter-kit.html) section
+Follow the steps to [Get Started with ZCU102 Vision AI Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/setting-up-the-sd-card-image.html) until you complete the [Booting your Starter Kit](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started-ubuntu/booting-your-starter-kit.html) section
+
+NOTE: download the ubunto image for zcu102 not the kria kv260
 
 #### 2. Install PYNQ
-Then install PYNQ on your Kria KV260 Vision AI Starter Kit.  Simply clone this repository from the KV260 and run the install.sh script.
+Then install PYNQ on the ZCU102.  Simply clone this repository and run the install.sh script.
 
 ```bash
 git clone https://github.com/Xilinx/Kria-PYNQ.git
